@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UDPClient", "UDPClient\UDPClient.vcproj", "{A06D6CCA-2F1F-4D7E-88CD-215EC15A1075}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UDPServer", "..\UDPServer\UDPServer\UDPServer.vcproj", "{E1D3F429-55D6-4DFE-9325-BD9A259E7EA2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A06D6CCA-2F1F-4D7E-88CD-215EC15A1075}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A06D6CCA-2F1F-4D7E-88CD-215EC15A1075}.Debug|Win32.Build.0 = Debug|Win32
+		{A06D6CCA-2F1F-4D7E-88CD-215EC15A1075}.Release|Win32.ActiveCfg = Release|Win32
+		{A06D6CCA-2F1F-4D7E-88CD-215EC15A1075}.Release|Win32.Build.0 = Release|Win32
+		{E1D3F429-55D6-4DFE-9325-BD9A259E7EA2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E1D3F429-55D6-4DFE-9325-BD9A259E7EA2}.Debug|Win32.Build.0 = Debug|Win32
+		{E1D3F429-55D6-4DFE-9325-BD9A259E7EA2}.Release|Win32.ActiveCfg = Release|Win32
+		{E1D3F429-55D6-4DFE-9325-BD9A259E7EA2}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
