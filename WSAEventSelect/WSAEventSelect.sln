@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WSAEventSelect", "WSAEventSelect\WSAEventSelect.vcproj", "{F1F6FD1C-0BA5-4FB7-BF7E-642E109FD2A1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TCPClient", "..\TCPClient\TCPClient\TCPClient.vcproj", "{C2DF898B-FEAC-4AA8-A248-177213B652AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1F6FD1C-0BA5-4FB7-BF7E-642E109FD2A1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F1F6FD1C-0BA5-4FB7-BF7E-642E109FD2A1}.Debug|Win32.Build.0 = Debug|Win32
+		{F1F6FD1C-0BA5-4FB7-BF7E-642E109FD2A1}.Release|Win32.ActiveCfg = Release|Win32
+		{F1F6FD1C-0BA5-4FB7-BF7E-642E109FD2A1}.Release|Win32.Build.0 = Release|Win32
+		{C2DF898B-FEAC-4AA8-A248-177213B652AF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C2DF898B-FEAC-4AA8-A248-177213B652AF}.Debug|Win32.Build.0 = Debug|Win32
+		{C2DF898B-FEAC-4AA8-A248-177213B652AF}.Release|Win32.ActiveCfg = Release|Win32
+		{C2DF898B-FEAC-4AA8-A248-177213B652AF}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
