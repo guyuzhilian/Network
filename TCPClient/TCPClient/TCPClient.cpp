@@ -23,10 +23,12 @@ int main()
 		return 0;
 	}
 
-	char buff[] = "hello world£¡";
-	::send(s, buff, strlen(buff), 0);
+	char buff[512];
+	while(scanf("%s", buff))
+	{
+		::send(s, buff, strlen(buff), 0);
+	}
 
-	system("pause");
 	::closesocket(s);
 	return 0;
 }
